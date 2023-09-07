@@ -1,0 +1,61 @@
+.main {
+    display: flex;
+    flex-direction: column;
+    padding-top: 64px;
+    align-items: center;
+}
+
+.game {
+    width: 70%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.round {
+    display: flex;
+    font-size: 32px;
+    font-weight: 800;
+}
+
+.player {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.result {
+    margin-top: 50px;
+
+}
+
+/* #select-dialog{
+    display: flex;
+} */
+
+.btn1 {
+    display: flex;
+    justify-content: center;
+}
+
+.btn2 {
+    margin-top: 80px;
+}
+.left .gesture img{
+    transform: rotate(45deg);
+}
+.right .gesture img{
+    transform: rotate(-45deg);
+}
+body{
+    background-color: yellow;
+}
+#btn2 {
+    background-color: black;
+    font-weight: 500;
+    color: white;
+    border-radius: 6px;
+}
+.gesture span{
+    font-size: 50px;
+}
